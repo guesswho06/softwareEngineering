@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Transaction">
+   <children>
+      <Button fx:id="withdrawBtn" layoutX="145.0" layoutY="207.0" mnemonicParsing="false" onAction="#withdraw" text="Ok" />
+      <Button fx:id="menuBtnWD" layoutX="75.0" layoutY="207.0" mnemonicParsing="false" onAction="#menu" text="Menu" />
+      <Label layoutX="75.0" layoutY="52.0" text="Account Id:" />
+      <Label layoutX="75.0" layoutY="123.0" text="Amount:" />
+      <Label fx:id="withdrawText" layoutX="310.0" layoutY="67.0" prefHeight="100.0" prefWidth="270.0" />
+      <TextField fx:id="withdrawAccountIdText" layoutX="75.0" layoutY="70.0" />
+      <TextField fx:id="withdrawAmountText" layoutX="76.0" layoutY="141.0" />
+   </children>
+</AnchorPane>
